@@ -1,0 +1,113 @@
+html{
+    background-color: antiquewhite;
+}
+header p {
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom right, rgb(203, 12, 12), rgb(243, 243, 138), rgb(241, 81, 81));
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(160, 48, 48);
+}
+header img{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112, 38, 38);
+  }
+  
+  header li {
+    float: left;
+    padding-left: 40px;
+  }
+  
+   header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 230px;
+  }
+  
+  header li a:hover:not(.active) {
+    background-color: #ec5a5a;
+  }
+  main img{
+    height: 250px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  main{
+   
+    width: 800px;
+  }
+  main p{
+    font-size: large;
+    text-align: justify;
+  }
+  main p i{
+    color: #ec5a5a;
+  }
+  aside .name{
+    font-size: large;
+    float: right;
+    margin-top: -400px;
+    margin-right: 75px;
+  }
+  footer{
+    background-image: linear-gradient(to bottom right, rgb(203, 12, 12), rgb(243, 243, 138), rgb(241, 81, 81));
+    height: 30px;
+    text-align: center;
+    font-size: large;
+    margin-top: 190px;
+  }
+  /* @media only screen and (max-width: 600px) {
+    body {
+      background-color: antiquewhite;
+    }
+  } */
+
+  @media only screen and (max-width: 600px) {
+    header img {
+        width: 50px;
+        height: 35px;
+    }
+
+    header p {
+        font-size: large; 
+    }
+    header li {
+        float: none;
+        padding-left: 0;
+        text-align: center; 
+        width: 100%; 
+    }
+
+    main img {
+        width: 100%; 
+        height: auto;
+        margin: 0; 
+        float: none; 
+    }
+
+    main {
+        width: 100%;
+        padding: 0 10px; 
+    }
+    aside .name {
+        margin: 20px 0; 
+    }
+    footer {
+        margin-top: 20px; 
+    }
+  }

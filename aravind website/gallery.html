@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+              header h1{
+            text-align: center;
+            background-color: rgb(122, 96, 62);
+            color: rgb(250, 243, 203);
+        }
+    header p {
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(to bottom right, rgb(228, 168, 168), rgb(241, 241, 228), rgb(241, 81, 81));
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(57, 37, 37);
+}
+    header img{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+.gall img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border: 5px solid rgb(238, 188, 188);
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+ .gall img:hover{
+    transition: transform .2s;
+    transform: scale(1.1);
+ }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="./images/tem logo.jpg" alt="logo" style="width: 75px; height: 50px;">
+        <p>Ranganathaswamy Temple, Srirangam</p>
+        <h1>Gallery of Ranganathaswamy Temple</h1>
+    </header>
+    <h1><a href="./index.html">BACK</a></h1>
+
+    <audio controls>
+        <source src="./images/audio.m4a" type="m4a">
+    </audio>
+    
+<main>
+    <section class="gall">
+        <img src="./images/gall.jpg" alt="">
+    </section>
+    
+    <section class="gall">
+        <img src="./images/gall1.jpg" alt="">
+    </section>
+    
+    <section class="gall">
+        <img src="./images/gall2.jpg" alt="">
+    </section>
+    
+    <section class="gall">
+        <img src="./images/gall3.jpg" alt="">
+    </section>
+    
+    <section class="gall">
+        <img src="./images/home.jpg" alt="">
+    </section>
+    <section class="gall">
+        <img src="./images/page.jpg" alt="">
+    </section>
+</main>
+</body>
+</html>
